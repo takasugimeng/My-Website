@@ -1,0 +1,53 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+.name {
+  color: #f8f9f9;
+}
+
+@media (min-width: 600px) {
+  .name {
+    font-family: avenir next lt pro;
+    font-size: 8rem;
+    margin-bottom: 0px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 300px 496px 300px;
+    grid-gap: 25px;
+  }
+  .img {
+    max-width: 100%;
+  }
+
+  .grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 25px;
+  }
+
+  .mover {
+    position: absolute;
+    left: 30%;
+    top: 1rem;
+    font-size: 0.9rem;
+    margin: 0;
+    animation-name: move-it;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+  }
+  @keyframes move-it {
+    0% {
+      left: 30%;
+    }
+    100% {
+      left: 70%;
+    }
+  }
+}
