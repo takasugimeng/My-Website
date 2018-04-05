@@ -3,11 +3,16 @@
  * ======================================== */
 .name {
   color: #f8f9f9;
+  font-family: biko;
+}
+
+.biko {
+  font-family: biko;
 }
 
 @media (min-width: 600px) {
   .name {
-    font-family: avenir next lt pro;
+    font-family: biko;
     font-size: 8rem;
     margin-bottom: 0px;
   }
@@ -40,6 +45,11 @@
     grid-gap: 50px;
   }
 
+  .grid4 {
+    display: grid;
+    grid-template-columns: 0.71fr 1fr;
+    grid-gap: 25px;
+  }
   .video {
     max-width: 100%;
   }
@@ -48,7 +58,7 @@
     position: absolute;
     left: 30%;
     top: 1rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: 0;
     animation-name: move-it;
     animation-duration: 20s;
