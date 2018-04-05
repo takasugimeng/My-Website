@@ -17,6 +17,12 @@
     grid-template-columns: 300px 496px 300px;
     grid-gap: 25px;
   }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 300px 532px 300px;
+    grid-gap: 25px;
+  }
+
   .img {
     max-width: 100%;
   }
@@ -26,10 +32,16 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 25px;
   }
+
   .grid3 {
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-gap: 25px;
+    grid-template-columns: 500px 500px;
+    /* grid-template-rows: 3fr; */
+    grid-gap: 50px;
+  }
+
+  .video {
+    max-width: 100%;
   }
 
   .mover {
