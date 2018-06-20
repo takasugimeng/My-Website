@@ -94,6 +94,12 @@
     grid-template-columns: 500px 500px;
     grid-gap: 10px;
   }
+
+  .grid10 {
+    display: grid;
+    grid-template-columns: 910px;
+    grid-gap: 10px;
+  }
   .video {
     max-width: 100%;
   }
