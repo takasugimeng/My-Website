@@ -62,38 +62,38 @@
   .grid5 {
     display: grid;
     grid-template-columns: 310px 310px 310px;
-    grid-gap: 10px;
+    grid-gap: 20px;
   }
 /* grid 5是3格的 */
 
   .grid6 {
     display: grid;
     grid-template-columns: 450px 450px;
-    grid-gap: 10px;
+    grid-gap: 20px;
   }
 
   .grid7 {
     display: grid;
     grid-template-columns: 610px 310px;
-    grid-gap: 10px;
+    grid-gap: 20px;
   }
 
   .grid8 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 15px;
   }
 
   .grid9 {
     display: grid;
     grid-template-columns: 500px 500px;
-    grid-gap: 10px;
+    grid-gap: 20px;
   }
 
   .grid10 {
     display: grid;
     grid-template-columns: 910px;
-    grid-gap: 20px;
+    grid-gap: 25px;
   }
 
   .grid11{
@@ -101,6 +101,9 @@
     grid-template-columns: 450px 450px;
     grid-gap: 0px;
   }
+
+
+
   .video {
     max-width: 100%;
   }
