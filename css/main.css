@@ -64,13 +64,8 @@
     grid-template-columns: 310px 310px 310px;
     grid-gap: 10px;
   }
-  /* 0.3275 */
+/* grid 5是3格的 */
 
-  /* .grid6 {
-    display: grid;
-    grid-template-columns: 0.65fr 0.35fr;
-    grid-gap: 10px;
-  } */
   .grid6 {
     display: grid;
     grid-template-columns: 450px 450px;
@@ -98,7 +93,13 @@
   .grid10 {
     display: grid;
     grid-template-columns: 910px;
-    grid-gap: 10px;
+    grid-gap: 20px;
+  }
+
+  .grid11{
+    display: grid;
+    grid-template-columns: 450px 450px;
+    grid-gap: 0px;
   }
   .video {
     max-width: 100%;
