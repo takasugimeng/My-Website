@@ -66,6 +66,25 @@
   }
 /* grid 5是3格的 */
 
+.grid12 {
+  display: grid;
+  grid-template-columns: 310px 310px 310px;
+  grid-gap: 0px;
+}
+/* grid12 是grid5没有间隔 */
+
+.grid8 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.grid13 {
+  display: grid;
+  grid-template-columns: 310px 310px 310px 310px;
+  grid-gap: 0px;
+}
+
   .grid6 {
     display: grid;
     grid-template-columns: 450px 450px;
