@@ -72,6 +72,11 @@
   grid-gap: 0px;
 }
 /* grid12 是grid5没有间隔 */
+.grid14 {
+  display: grid;
+  grid-template-columns: 410px 410px 410px;
+  grid-gap: 0px;
+}
 
 .grid8 {
   display: grid;
