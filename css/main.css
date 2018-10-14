@@ -77,6 +77,11 @@
   grid-template-columns: 410px 410px 410px;
   grid-gap: 0px;
 }
+.grid15 {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-gap: 15px;
+}
 
 .grid8 {
   display: grid;
